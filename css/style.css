@@ -76,10 +76,10 @@ a:active {
 
 .showcase {
     background: url("../img/showcase.jpg") no-repeat 0 -400px;
-    min-height: 400px ;
+    min-height: 500px;
     color: whitesmoke;
     box-sizing: border-box;
-    padding:40px 100px;
+    padding: 90px 100px;
     margin: 0 auto;
 }
 
@@ -97,7 +97,7 @@ a:active {
 
 /* NEWSLETTER */
 
-.container-newsletter{
+.container-newsletter {
     display: flex;
     justify-content: space-between;
     color: whitesmoke;
@@ -105,7 +105,7 @@ a:active {
     padding: 30px 80px;
 }
 
-.container-newsletter form{
+.container-newsletter form {
 }
 
 .container-newsletter h1 {
@@ -123,10 +123,13 @@ a:active {
     color: white;
     height: 50px;
     margin-left: 2px;
-
 }
 
-.email{
+.button-subscribe:hover{
+    cursor: pointer;
+}
+
+.email {
     padding: 2px;
     box-sizing: border-box;
     height: 50px;
@@ -134,3 +137,29 @@ a:active {
     font-size: 1.2em;
 }
 
+/* BOXES */
+
+.boxes {
+    margin-top: 20px;
+}
+
+.container-boxes{
+    display: flex;
+    padding: 30px;
+}
+
+.box {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.box img {
+    width: 100px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: #354248;
+}
