@@ -9,7 +9,7 @@ body {
 
 /* GLOBAL */
 
-.container-header {
+.container {
     width: 80%;
     margin: 0 auto;
     overflow: hidden;
@@ -162,4 +162,24 @@ a:active {
     padding: 10px;
     color: whitesmoke;
     background-color: #354248;
+}
+
+/* ABOUT US PAGE */
+
+.con-main {
+    min-height: 500px;
+}
+
+.main-col {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.sidebar {
+    float: right;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
 }
