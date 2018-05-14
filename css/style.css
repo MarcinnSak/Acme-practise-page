@@ -122,7 +122,6 @@ a:active {
     font-weight: bold;
     color: white;
     height: 50px;
-    margin-left: 2px;
 }
 
 .button-subscribe:hover{
@@ -177,9 +176,97 @@ a:active {
     padding: 10px;
 }
 
+.main-col h1 {
+    font-size: 1.7em;
+}
+
 .sidebar {
+    margin-top: 20px;
+    margin-bottom: 20px;
     float: right;
     width: 30%;
     padding: 10px;
     box-sizing: border-box;
+    color: white;
+    background-color: #354248;
+}
+
+.sidebar h3 {
+    font-size: 1.3em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* FORM */
+
+.services {
+    padding-left: 0;
+}
+
+.services li {
+    list-style: none;
+    text-align: center;
+    border: solid lightgrey 1px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #C3CECF;
+}
+
+textarea, input{
+    width: 90%;
+}
+
+textarea {
+    height: 50px;
+}
+
+.button_1 {
+    background-color: #CF5718;
+    border: none;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: white;
+    height: 30px;
+    width: 80px;
+}
+
+.button_1:hover{
+    cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+
+@media(max-width: 768px){
+    header .logo,
+    .navigation,
+    header .navigation li,
+    .newsletter h1,
+    .newsletter form ,
+    .container-boxes .box,
+    .main-col,
+    .sidebar
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header {
+        padding-bottom: 20px;
+    }
+    .showcase h1{
+        margin-top: 0;
+    }
+    .container-newsletter{
+        display: block;
+    }
+    .container-boxes{
+        display: block;
+    }
+    .container-newsletter input[type='email'],
+    .container-newsletter button{
+        width: 100%;
+        margin-bottom: 3px;
+    }
 }
